@@ -1,0 +1,173 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Arcane Traditions",
+				"abbreviation": "AT",
+				"full": "Arcane Traditions",
+				"color": "a1b500",
+				"authors": [
+					"/u/laserllama"
+				],
+				"convertedBy": [
+					"LelouchVee",
+					"Maal"
+				],
+				"version": "1.0",
+				"url": "https://greenroninstore.com/products/critical-role-tal-dorei-campaign-setting",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"status": "deprecated",
+		"dateAdded": 1561679857,
+		"dateLastModified": 1686754541,
+		"_dateLastModifiedHash": "4a67dd7120"
+	},
+	"book": [
+		{
+			"name": "Arcane Traditions",
+			"id": "Arcane Traditions",
+			"author": "/u/laserllama",
+			"published": "2017-10-17",
+			"group": "homebrew",
+			"source": "Arcane Traditions",
+			"coverUrl": "https://i.ibb.co/jkGwnFy/tdcs-cover.png",
+			"contents": [
+				{
+					"name": "Character Options",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					},
+					"headers": [
+						"Player Class Options"
+					]
+				}
+			]
+		}
+	],
+	
+	
+	"subclass": [
+		{
+			"name": "The School of Hexcraft",
+			"source": "Arcane Traditions",
+			"shortName": "Hexcraft",
+			"page": 9,
+			"subclassFeatures": [
+				"Eldritch Savant|Wizard||Hexcraft|Arcane Traditions|1",
+				"Forbidden Arcana|Wizard||Hexcraft|Arcane Traditions|1",
+				"Profane Ritual|Wizard||Hexcraft|Arcane Traditions|1",
+				"Inscrutable|Wizard||Hexcraft|Arcane Traditions|1",
+				"Heart of Darkness|Wizard||Hexcraft|Arcane Traditions|1"
+			],
+			"className": "Wizard",
+			"classSource": "PHB"
+		},
+	],
+	"subclassFeature": [
+		{
+			"name": "Hexcraft",
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 2,
+			"entries": [
+				"Some who study the arcane aren't satisfied with traditional schools of wizardry and turn to the dark arts in their hunger for power. Striking out into the wild, they seek out beings from the lower planes, creatures from the Shadowfell, or vile covens of hags in order to learn otherworldly eldritch magic.",
+				"Many who follow this path are willing to sacrifice anything, even their eternal soul, in order to learn sinister magics often reserved for those who enter pacts with eldritch entities.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eldritch Savant|Wizard||Hexcraft|Arcane Traditions|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forbidden Arcana|Wizard||Hexcraft|Arcane Traditions|1"
+				}
+			]
+		},
+		{
+			"name": "Eldritch Savant",
+			"entries": [
+				"When you adopt this Arcane Tradition at 2nd level, you gain access to magic that is shunned by all by the most unhinged. You can copy warlock spells that you find in other spellbooks or spell scrolls into your spellbook. Warlock spells gained through this feature count as wizard spells for you.".
+				"Also, when you gain a level in this class, one of the spells you add to your spellbook must be from the warlock spell list."
+			],
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Forbidden Arcana",
+			"entries": [
+				"In your study of dark magics you have gained for yourself strange and sinister abilities. At 2nd level, you learn of two Eldritch Invocations of your choice from the list below.",
+				"When you gain a level in this class, you can switch your Invocation for another of your choice from the list below.",
+				"You learn an additional Eldritch Invocation from this list when you reach 6th, 10th, and 14th level in this class.",
+				{@invocation beast speech},
+				{@invocation beguiling influence},
+				{@invocation devils sight},
+				{@invocation eldritch sight},
+				{@invocation eyes of the rune keeper},
+				{@invocation misty visions},
+				{@invocation one with shadows}
+			],
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Profane Ritual",
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can use your knowledge of dark magic to enhance your life force at the cost of your surroundings. Beginning at 6th level, when you finish casting the ritual version of a wizard spell, you can grant yourself temporary hit points equal to the level at which you cast the ritual spell + your wizard level. When you complete a ritual in this way, area around you is noticeably withered and sickly, and delicate life dies."
+			]
+		},
+		{
+			"name": "Inscrutable",
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have learned to hide yourself from spellcasters and other powerful creatures that would stand in your way. Starting at 10th level, you are immune to any effect that would sense your emotions, read your thoughts, or detect your alignment, as well as any divination spell that you refuse. Also, when a creature makes a Wisdom (Insight) check to ascertain your true intentions or sincerity they do so at disadvantage."
+			]
+		},
+		{
+			"name": "Heart of Darkness",
+			"source": "Arcane Traditions",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hexcraft",
+			"subclassSource": "Arcane Traditions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You have mastered the sinister magic of drawing power from death. Beginning at 14th level, when you kill a creature with a wizard spell of 1st-level or higher, you can use your reaction to regain one of your expended spell slots. The spell slot you recover must be of at least one level lower then the spell cast to kill the creature, and it cannot be higher than 5th-level.",
+				"You can use this ability a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you complete a long rest."
+			]
+		}
+	]
+}
