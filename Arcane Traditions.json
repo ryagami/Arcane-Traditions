@@ -1,28 +1,4 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "Arcane Traditions",
-				"abbreviation": "AT",
-				"full": "Arcane Traditions",
-				"color": "a1b500",
-				"authors": [
-					"/u/laserllama"
-				],
-				"convertedBy": [
-					"ryagami"
-				],
-				"version": "1.0",
-				"url": "https://www.gmbinder.com/share/-M0ntPkLWIcpaUrn7E9h",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"status": "deprecated",
-		"dateAdded": 1561679857,
-		"dateLastModified": 1686754541,
-		"_dateLastModifiedHash": "4a67dd7120"
-	},	
-	
 	"subclass": [
 		{
 			"name": "The School of Hexcraft",
