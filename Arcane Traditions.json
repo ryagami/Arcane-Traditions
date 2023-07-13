@@ -59,14 +59,7 @@
 			"entries": [
 				"In your study of dark magics you have gained for yourself strange and sinister abilities. At 2nd level, you learn of two Eldritch Invocations of your choice from the list below.",
 				"When you gain a level in this class, you can switch your Invocation for another of your choice from the list below.",
-				"You learn an additional Eldritch Invocation from this list when you reach 6th, 10th, and 14th level in this class.",
-				{@invocation beast speech},
-				{@invocation beguiling influence},
-				{@invocation devils sight},
-				{@invocation eldritch sight},
-				{@invocation eyes of the rune keeper},
-				{@invocation misty visions},
-				{@invocation one with shadows}
+				"You learn an additional Eldritch Invocation from this list when you reach 6th, 10th, and 14th level in this class."
 			],
 			"source": "Arcane Traditions",
 			"page": 9,
